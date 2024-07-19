@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navContainer">
+        <a class="navAnchor" href="../index.html">Digital Clock</a>
+        <a class="navAnchor" href="../Piano/index.html">Piano</a>
+        <a class="navAnchor" href="./index.html">Calculator</a>
+        <a class="navAnchor" href="../randomPasswordGenerator/index.html">Random Password Generator</a>
+    </nav>
+    <div class="container">
+        <input  id="calculationInput" readonly>
+        <div class="buttons">
+            <button onclick="calcInput('+')" class="diffColor">+</button>
+            <button onclick="calcInput('7')">7</button>
+            <button onclick="calcInput('8')">8</button>
+            <button onclick="calcInput('9')">9</button>
+            <button onclick="calcInput('-')" class="diffColor">-</button>
+            <button onclick="calcInput('4')">4</button>
+            <button onclick="calcInput('5')">5</button>
+            <button onclick="calcInput('6')">6</button>
+            <button onclick="calcInput('*')" class="diffColor">*</button>
+            <button onclick="calcInput('1')">1</button>
+            <button onclick="calcInput('2')">2</button>
+            <button onclick="calcInput('3')">3</button>
+            <button onclick="calcInput('/')" class="diffColor">/</button>
+            <button onclick="calcInput('0')">0</button>
+            <button onclick="calcInput('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="reset()" class="diffColor">C</button>
+        </div>
+    </div>
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
